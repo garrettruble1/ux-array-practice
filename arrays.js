@@ -102,10 +102,10 @@ function getItemFromFridge(fridge, item) {
 */
 console.log("-----Tests for Exercise Three-----");
 let fridge3 = ["milk", "cheese", "eggs", "broccoli", "spinach", "chicken", "leftovers"];
-console.log("* Get the cheese");
-let lengthBeforeGettingCheese = fridge3.length;
-let cheese = getItemFromFridge(fridge3, "cheese")
-console.log(cheese == "cheese" && fridge3.length == lengthBeforeGettingCheese - 1 && !fridge3.includes("cheese"));
+console.log("* Get the milk");
+let lengthBeforeGettingMilk = fridge3.length;
+let milk = getItemFromFridge(fridge3, "milk")
+console.log(milk == "milk" && fridge3.length == lengthBeforeGettingMilk - 1 && !fridge3.includes("milk"));
 
 console.log("* Get missing item");
 let lengthBeforeMissingItem = fridge3.length;
